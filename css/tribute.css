@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+h4 {
+    margin-bottom: 8px;
+}
+.wholepage {
+    height: 100vh;
+    width: 100%;
+}
+
+.header-1 {
+    display:flex;
+}
+
+.container {
+    display:flex;
+    height: 80px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.logo{
+    margin-left: 100px;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end ;
+    gap: 1rem;
+    margin-right: 200px;
+    flex-grow: 1;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin-bottom: 20%;
+}
+
+.container-2 {
+    width: 60%;
+    display: flex;
+}
+
+.text {
+    align-self: center;
+}
+
+.container-h2 {
+    margin-bottom: 10px;
+}
+
+.img {
+    height:200px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.container-3 {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.container-31 {
+    margin-top: 10px;
+}
+
+.eskom {
+    margin-bottom: 7px;
+}
+
+.achievements {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    height: 50vh;
+    margin-top: 15%;
+}
+
+.container-4 {
+    margin-bottom: 5%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.img1 {
+    height:30vh;
+    width: auto;
+    margin: 10px;
+}
